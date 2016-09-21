@@ -25,6 +25,7 @@ namespace tarea3
 
 
 
+
             SqlConnection sncon = new SqlConnection("Data Source=localhost;Initial Catalog=Aplicada2;Integrated Security=True");
             string consulta = string.Format("insert into Mensajes (Email,Asunto,Mensaje) values('{0}','{1}','{2}')",email,mensaje,asunto);
             
