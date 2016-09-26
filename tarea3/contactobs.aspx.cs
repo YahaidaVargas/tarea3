@@ -6,12 +6,16 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
+using BLL;
 
 
 namespace tarea3
 {
     public partial class contactobs : System.Web.UI.Page
     {
+
+        Mensaje Mns = new Mensaje();
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -26,29 +30,21 @@ namespace tarea3
 
 
 
-            SqlConnection sncon = new SqlConnection("Data Source=localhost;Initial Catalog=Aplicada2;Integrated Security=True");
-            string consulta = string.Format("insert into Mensajes (Email,Asunto,Mensaje) values('{0}','{1}','{2}')",email,mensaje,asunto);
-            
-            try
-            {
-                sncon.Open();
-                SqlCommand com = new SqlCommand(consulta,sncon);
-                com.ExecuteNonQuery();
-            }
-            catch(SqlException ex)
-            {
-                Response.Write(ex.Message);
-            }
-            finally
-            {
-             sncon.Close();
+            //SqlConnection sncon = new SqlConnection("Data Source=localhost;Initial Catalog=Aplicada2;Integrated Security=True");
 
+            Mns.Mensajes = mensaje;
+            Mns.Asunto = asunto;
+            Mns.Email = email;
+
+            Mns.Insertar();
+           
+      
                txtemail.Text = string.Empty;
                txtasunto.Text = string.Empty;
                 txtmensaje.Text = string.Empty;
 
                //Response.Write("registros guardados");
-            }
+            
 
 
          

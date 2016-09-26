@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tarea3", "tarea3\tarea3.csproj", "{4849520A-91C2-4555-ADAD-52E6ABA265C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{8B6F2D48-6F1D-45BD-BB4E-FD2AD38D3FAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{89C032E9-311A-44BB-8D02-35E8735CEC5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4849520A-91C2-4555-ADAD-52E6ABA265C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4849520A-91C2-4555-ADAD-52E6ABA265C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4849520A-91C2-4555-ADAD-52E6ABA265C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6F2D48-6F1D-45BD-BB4E-FD2AD38D3FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6F2D48-6F1D-45BD-BB4E-FD2AD38D3FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6F2D48-6F1D-45BD-BB4E-FD2AD38D3FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6F2D48-6F1D-45BD-BB4E-FD2AD38D3FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C032E9-311A-44BB-8D02-35E8735CEC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C032E9-311A-44BB-8D02-35E8735CEC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C032E9-311A-44BB-8D02-35E8735CEC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C032E9-311A-44BB-8D02-35E8735CEC5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
