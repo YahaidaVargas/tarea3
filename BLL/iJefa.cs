@@ -13,6 +13,7 @@ namespace BLL
 
         Boolean Modificar();
 
+
         Boolean BuscarId(Int32 IdBuscado);
 
         DataTable Listar(string campos = "*", string Filtro = "1=1");

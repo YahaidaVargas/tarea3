@@ -11,6 +11,8 @@ namespace BLL
     {
         private ConexYaha conexion = new ConexYaha();
 
+
+
               
 
         public int IdMensaje { get; set; }
