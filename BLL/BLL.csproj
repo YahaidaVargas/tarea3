@@ -40,7 +40,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="iJefa.cs" />
     <Compile Include="Mensaje.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

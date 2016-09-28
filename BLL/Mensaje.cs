@@ -7,7 +7,7 @@ using DAL;
 
 namespace BLL
 {
-    public class Mensaje : iJefa
+    public class Mensaje
     {
         private ConexYaha conexion = new ConexYaha();
 
